@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    background-color: #fff;
+
+}
+
+table{
+	margin-top: 50px;
+    border-color: none;
+    border: none;
+	text-align: center;
+	background: palevioletred;
+	color: #fff;
+}
+
+#fname, #lname, #email, #age, #btn{
+    padding: 12px 58px;
+    font-size: 14px;
+}
+#name{
+    font-size: 24px;
+}
+#btn{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    background-color: palevioletred;
+}
+#btn:hover{
+    color: palevioletred;
+    background-color: antiquewhite;
+}
+
+#show th, #show td{
+	padding: 20px;
+}
+
+#btna td input{
+	width: 100%;
+}
